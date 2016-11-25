@@ -181,6 +181,7 @@ public class MyPullToRefresh extends LinearLayout{
                             goToIsPulling();
                             smoothRotateArrow();
                         }
+                        scaleY = scaleY/3;
                         scrollBy(0, (int) (-scaleY));
                         break;
                     case isRefreshing:
